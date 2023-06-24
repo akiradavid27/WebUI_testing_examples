@@ -3,6 +3,7 @@ package Pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
@@ -17,8 +18,12 @@ public class DropdownPage {
     //Constructor
     public DropdownPage(WebDriver driver) {
         this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
     //Methods
+    public boolean isDropdownPageOpen(){
+        return (driver.getTitle()!=null);
+    }
     public void selectFromDropdown(String option){
         findDropdownElement().selectByVisibleText(option);
     }

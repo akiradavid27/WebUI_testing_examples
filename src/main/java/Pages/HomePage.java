@@ -16,16 +16,14 @@ public class HomePage {
         clickLink("Form Authentication");
         return new LoginPage(driver);
     }
-
     public DropdownPage clickDropdown(){
         clickLink("Dropdown");
         return new DropdownPage(driver);
     }
-    /*
-    public ForgotPassword clickForgotPassword(){
+    public ForgotPasswordPage clickForgotPassword(){
         clickLink("Forgot Password");
-        return new ForgotPassword(driver);
-    }
+        return new ForgotPasswordPage(driver);
+    }/*
     public HoverPage clickHoverPage(){
         clickLink("Hovers");
         return new HoverPage(driver);

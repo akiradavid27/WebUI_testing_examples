@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a312ba89-30c2-4290-958d-1cd7e9f047a9" name="Changes" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/DropdownPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/DropdownPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/ForgotPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/ForgotPasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Dropdown/DropdownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Dropdown/DropdownTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +49,37 @@
       <recent name="C:\Users\akira\Java Projects\WebUI_Java_examples\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.ForgotPasswordTest.testForgotPassword">
+    <configuration name="DropdownTest.testSelectOption" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebUI_Java_examples" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Dropdown.DropdownTest" />
+      <option name="METHOD_NAME" value="testSelectOption" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForgotPasswordTest.testForgotPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebUI_Java_examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ForgotPassword.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ForgotPassword" />
+      <option name="MAIN_CLASS_NAME" value="ForgotPassword.ForgotPasswordTest" />
+      <option name="METHOD_NAME" value="testForgotPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTests.TestSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebUI_Java_examples" />
       <extension name="coverage">
@@ -66,6 +100,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ForgotPasswordTest.testForgotPassword" />
+        <item itemvalue="TestNG.DropdownTest.testSelectOption" />
         <item itemvalue="TestNG.LoginTests.TestSuccessfulLogin" />
       </list>
     </recent_temporary>
